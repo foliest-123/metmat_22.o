@@ -1,6 +1,6 @@
 .footer{
     padding: 30px 48px;
-    background: #000000;
+    background: linear-gradient(to right,rgb(116, 110, 110),rgb(39, 38, 38));
     color: white;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     flex-basis: 20%;
 }
 .logo_container > p > b{
-    color: #F4D03F;
+    color: red;
 }
 .link_part{
     display: grid;
@@ -19,7 +19,7 @@
 }
 .link_part > a{
    text-decoration: none;
-   color: white;
+   color: rgb(64, 189, 247);
 }
 .link_part > a > li{
     list-style: none;
@@ -29,6 +29,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 12px;
+     
 }
 
 @media(max-width:1023px){

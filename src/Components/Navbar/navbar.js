@@ -59,18 +59,18 @@ function NavBar(props) {
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 to="/previous-synergy"
                 activeclassname="active"
                 className="nav-links"
                onClick={click ? handleClick : null}
               >
-                Memories
+                About
               </NavLink>
-            </li>
+            </li> */}
 
-            <li className="nav-item">
+              <li className="nav-item">
               <a   
                 href="https://gcesalem.edu.in/"
                 target="_blank"
@@ -79,9 +79,9 @@ function NavBar(props) {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                About GCE
+                About 
               </a>
-            </li>
+            </li> 
             
             <li className="nav-item">
               <NavLink   

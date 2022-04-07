@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
  .hero {
-	 background-color: #000000;
+	 background:linear-gradient(to top,rgb(88, 82, 82),rgb(9, 16, 17));
 	 position: relative;
 	 height: 100vh;
 	 overflow: hidden;
 	 font-family: 'Montserrat', sans-serif;
 }
  .hero__title {
-	 color: #fff;
+	 color: #FFFFFF;
 	 position: absolute;
 	 top: 55%;
 	 left: 50%;
@@ -21,6 +21,7 @@
  .hero__title > p{
 	margin: 14px;
     font-size: 40px;
+	letter-spacing: 4px;
  }
  
  .hero__title > p:nth-child(1){
@@ -38,21 +39,23 @@
 	 left: 45vw;
 	 width: 10px;
 	 height: 10px;
-	 border: solid 1px #003298;
-	 transform-origin: top left;
+	 border: solid 1px #ffffff;
+	 transform-origin: top right;
+	 border-radius: 100px;
 	 transform: scale(0) rotate(0deg) translate(-50%, -50%);
-	 animation: cube 12s ease-in forwards infinite;
+	 animation: cube 5s ease-in forwards infinite;
 }
  .cube:nth-child(2n) {
-	 border-color: #0051f4;
+	 border-color: #f5f3f3;
 }
  .cube:nth-child(2) {
-	 animation-delay: 2s;
+	 animation-delay: 5s;
 	 left: 25vw;
 	 top: 40vh;
+	 color: rgb(255, 255, 255);
 }
  .cube:nth-child(3) {
-	 animation-delay: 4s;
+	 animation-delay: 8s;
 	 left: 75vw;
 	 top: 50vh;
 }
@@ -96,18 +99,17 @@
 
 .btn-hover {
     width: 200px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: white;
     cursor: pointer;
     margin: 22px;
 	margin-bottom: 0;
     height: 55px;
     text-align:center;
     border: none;
+	border-radius: 5px;
     background-size: 300% 100%;
-
-    border-radius: 50px;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -120,6 +122,8 @@
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+	transform: scale(1.15);
+	 
 }
 
 .btn-hover:focus {
@@ -127,8 +131,8 @@
 }
 
 .btn-hover.color-3 {
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    background-image: linear-gradient(to right, #fbfcff, #000000, #4a404d, #ede1f7);
+    box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 0.75);
 }
 
 @media(max-width:1023px){
@@ -147,4 +151,7 @@
 		white-space: nowrap;
 		line-height: 17px;
 	}
+}
+.reg{
+	color: black;
 }

@@ -9,24 +9,24 @@ const Footer = () => {
         },
         {
             name:"insta",
-            link:"https://instagram.com/synergy_22.0?utm_medium=copy_link"
+            link:"https://instagram.com/metmat_22.0?utm_medium=copy_link"
         },
         {
             name:"mail",
-            link:"mailto:gcesynergy2022@gmail.com"
+            link:"mailto:metmat2k22@gmail.com"
         }
     ];
 
     return ( 
         <div className="footer">
             <div className="logo_container">
-                <h2>Synergy</h2>
-                <p>Synergy 22.0 is organised by the <b>S</b>ociety for the <b>A</b>dvancement of <b>E</b>lectrical and <b>E</b>lectronics <b>E</b>ngineering (SAEEE).</p>
+                <h2>Metmat 22.o</h2>
+                <p>Metmat 22.0 is organised by the <b>S</b>ociety for the <b>A</b>dvancement of <b>M</b>ettulargy <b>E</b>ngineering (SAME).</p>
             </div>
             <ul className="link_part">
                 <Link to="/"><li>Home</li></Link>
                 <Link to="/events"><li>Events</li></Link>
-                <Link to="/previous-synergy"><li>Memories</li></Link>  
+                {/* <Link to="/previous-synergy"><li>About</li></Link>   */}
             </ul>
             <ul className="link_part">
                 <Link to="/register"><li>Register</li></Link>

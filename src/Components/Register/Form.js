@@ -66,7 +66,7 @@ const Form = () => {
         setEvents(newArray);
     }
 
-    // handle check radio
+     
     const radioChange = (e)=>{
         setChecked(() => {
             return {
@@ -199,7 +199,7 @@ const Form = () => {
                     <span className="event_name">Non Technical</span>
                     </label>
                 </div> 
-                <div className="select_events">
+                {/* <div className="select_events">
                     <label>
                     <input name="project" className="event_check" id="Project" type="checkbox" onClick={evenListChangeHandler}/>
                     <span className="event_name">Project</span>
@@ -216,7 +216,7 @@ const Form = () => {
                     <input name="all" className="event_check" id="All Events" type="checkbox" onClick={evenListChangeHandler}/>
                     <span className="event_name">All Events</span>
                     </label>
-                </div> 
+                </div>  */}
             </div>
 
             <div className="accomodation">
@@ -224,8 +224,8 @@ const Form = () => {
                 <label className="acc_lable">
                 <input id="yes" type="radio" value="yes" onClick={accomodationChangeHandler} onChange={radioChange} checked={checked.yes}/>
                 <span className="event_name">Yes</span>
-                </label>
-                <label className="acc_lable">
+                </label> 
+                 <label className="acc_lable">
                 <input id="no" type="radio"  value="no" onClick={accomodationChangeHandler} onChange={radioChange}checked={checked.no}/>
                 <span className="event_name">No</span>
                 </label>

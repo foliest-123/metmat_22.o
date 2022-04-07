@@ -91,7 +91,7 @@ const ContactForm = () => {
                 </div>
                 <div className="input_container">
                     <label className="contact_user">Message</label>
-                    <textarea  rows="10" placeholder="Write your message..." value={msg} onChange={msgChangeHandler} required></textarea>
+                    <textarea  rows="10" placeholder="Write your queries..." value={msg} onChange={msgChangeHandler} required></textarea>
                 </div>
             </div>
             <div className="contact_submit">

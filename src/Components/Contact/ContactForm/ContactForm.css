@@ -1,5 +1,5 @@
 .contact_form_element{
-    background-color: white;
+    background-color: rgb(248, 244, 244);
 }
 .contact_form{
     display: grid;
@@ -35,25 +35,25 @@
 
 .contact_submit{
     text-align: end;
-    padding: 18px;
+    padding: 10px;
     padding-bottom: 25px;
 }
 
 .contact_submit > button{
-    width: 34%;
+    width: 25%;
     padding: 14px 35px;
     color: white;
     background: black;
     font-weight: 500;
     outline: none;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .contact_submit > button:hover{
-    transform: scale(1.05);
+    transform: scale(1.15);
 
 }
 

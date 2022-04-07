@@ -34,19 +34,19 @@ const ContactInfo = () => {
                     
                     <div className="contact_number_student">
                     <div>+91 7826078947,</div>
-                    <div>(Abimanyu)</div>
+                    <div>(....)</div>
                     </div>
                     
                     <div className="contact_number_student">
                     <div>+91 6374357067.</div>
-                    <div>(Naveen Kumar)</div>
+                    <div>(...)</div>
                     </div>
 
                    </div>
                 </div>
                 <div className="contact_details">
                     <img src={email} alt="phone" />
-                    <span>gcesynergy2022@gmail.com</span>
+                    <span>gcemetmat2022@gmail.com</span>
                 </div>
                 <div className="contact_details">
                     <img src={location} alt="phone" />

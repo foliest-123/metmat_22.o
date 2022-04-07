@@ -8,6 +8,7 @@ import Rules from './Components/Rules/Rules';
 import ProjectRules from "./Components/Rules/ProjectRules";
 import PaperPresentationRules from './Components/Rules/PaperPresentationRules';
 import ScrollToTop from './Components/ScrollToTop';
+import About from './Components/PreviousSynergy/PreviousSynergy'
 function App() {
   return (
     <Router>
@@ -19,10 +20,11 @@ function App() {
         <Route path="/events/Project" element={<Rules rules={ProjectRules}/>}/>
         <Route path="/events/Paper" element={<Rules rules={PaperPresentationRules}/>}/>
         <Route path="/register" element={<Register/>}/>
-        <Route path="/previous-synergy" element={<PreviousSynergy/>}/>
+         <Route path="/previous-synergy" element={<PreviousSynergy/>}/>
         <Route path="/contact-us" element={<Contact/>}/>
       </Routes> 
     </Router>
+     
   );
 }
 

@@ -9,6 +9,7 @@ const Register = () => {
             <div className="register">
                 <Bulb/>
                 <Form/>
+                 
             </div>
         </NavBar>
      );

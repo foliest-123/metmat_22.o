@@ -3,6 +3,7 @@
     text-align: center;
     font-size: calc(1.5rem + 2vw);
     margin-top: 10%;
+   
   }
   
   .navbar {
@@ -80,11 +81,11 @@
   
   .nav-item:hover:after {
     width: 100%;
-    background: #F4D03F;
+    background: #2eb30d;
   }
   
   .nav-links.active {
-    color: #F4D03F;
+    color: #0ce8f8b9;
   }
   
   .nav-icon {

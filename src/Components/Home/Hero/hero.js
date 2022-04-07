@@ -15,10 +15,10 @@ const Hero = () => {
             <div className="cube"></div>
             
             <div className="hero__title"> 
-                <p>GOVERNMENT COLLEGE OF ENGINEERING, SALEM.</p>
-                <p>DEPARTMENT OF <br /> ELECTRICAL AND ELECTRONICS ENGINEERING</p>
-                <p>Synergy</p>
-                <Link to="/register"><button className="btn-hover color-3">Register Now</button></Link>
+                {/* <p>GOVERNMENT COLLEGE OF ENGINEERING, SALEM.</p>
+                <p>DEPARTMENT OF <br /> ELECTRICAL AND ELECTRONICS ENGINEERING</p> */}
+                <p>METMAT</p>
+                <Link to="/register"><button className="btn-hover color-3"><span className='reg'>Register</span> Now</button></Link>
                 <CountDown/>
                 <Count/>
             </div>

@@ -8,7 +8,7 @@ import EventsHero from "./eventsHero";
 const Events = () => {
     return ( 
         <NavBar className="second_nav">
-            <EventsHero/>
+            {/* <EventsHero/> */}
             <div className="events_container">
              <h2>Technical Events</h2>
              <EventsGridLayout EventArray={techEvents}/>
