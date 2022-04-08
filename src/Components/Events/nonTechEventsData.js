@@ -17,30 +17,30 @@ const nonTechEvents = [
         name:"Fluenta",
         content:"Your Grammar is a reflection of your image."
     },
-    {
-        id:"adzap",
-        image:"adzap",
-        name:"Adzap",
-        content:"Penetrate the public mind with your persuasive advertising."
-    },
-    {
-        id:"brainspark",
-        image:"brainSpark",
-        name:"BrainSpark",
-        content:"Solve the problems with sparks of logic."
-    },
-    {
-        id:"juniorscientist",
-        image:"juniorScientist",
-        name:"JuniorScientist",
-        content:"Prove that everything is theoretically impossible until it is done."
-    },
-    {
-        id:"photography",
-        image:"photography",
-        name:"Photography",
-        content:"Capture the moments with a button of life."
-    },
+    // {
+    //     id:"adzap",
+    //     image:"adzap",
+    //     name:"Adzap",
+    //     content:"Penetrate the public mind with your persuasive advertising."
+    // },
+    // {
+    //     id:"brainspark",
+    //     image:"brainSpark",
+    //     name:"BrainSpark",
+    //     content:"Solve the problems with sparks of logic."
+    // },
+    // {
+    //     id:"juniorscientist",
+    //     image:"juniorScientist",
+    //     name:"JuniorScientist",
+    //     content:"Prove that everything is theoretically impossible until it is done."
+    // },
+    // {
+    //     id:"photography",
+    //     image:"photography",
+    //     name:"Photography",
+    //     content:"Capture the moments with a button of life."
+    // },
     // {
     //     image:"multimediaPresentation",
     //     name:"MultimediaPresentation",

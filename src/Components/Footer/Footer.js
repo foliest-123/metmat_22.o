@@ -9,7 +9,7 @@ const Footer = () => {
         },
         {
             name:"insta",
-            link:"https://instagram.com/metmat_22.0?utm_medium=copy_link"
+            link:"https://instagram.com/metmat__22.0?igshid=YmMyMTA2M2Y="
         },
         {
             name:"mail",
@@ -25,12 +25,14 @@ const Footer = () => {
             </div>
             <ul className="link_part">
                 <Link to="/"><li>Home</li></Link>
-                <Link to="/events"><li>Events</li></Link>
+                <Link to="/events"><li>Events</li></Link> 
+                <Link to="/register"><li>Register</li></Link>
+                <Link to="/contact-us"><li>Contact</li></Link>
                 {/* <Link to="/previous-synergy"><li>About</li></Link>   */}
             </ul>
             <ul className="link_part">
-                <Link to="/register"><li>Register</li></Link>
-                <Link to="/contact-us"><li>Contact</li></Link>
+                {/* <Link to="/register"><li>Register</li></Link>
+                <Link to="/contact-us"><li>Contact</li></Link> */}
                 <div className="social_icons">
                     {
                         icons.map((icon,index)=>{

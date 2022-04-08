@@ -2,7 +2,7 @@
     position: relative;
     top: 10%;
     margin: auto;
-    max-width: 700px;
+    max-width: 600px;
     background-color: rgba(20, 20, 20, 0.8);
     color: #ffff;
     padding: 2rem;
@@ -21,15 +21,18 @@
     padding: 10px;
     border: none;
     border-bottom: 2px solid rgb(7, 239, 247);
+     
+    border-left: 2px solid rgb(7, 239, 247);
+    border-right: 2px solid rgb(7, 239, 247);
     background: none;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 75%;
     font-size: 16px;
     margin-bottom: 2rem;
 }
-
+ 
 label{
     display: flex;
     justify-content: flex-start;

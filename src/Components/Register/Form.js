@@ -111,8 +111,8 @@ const Form = () => {
 
         const mailData = {
             to : email,
-            subject:"Registered for Synergy Events",
-            text: "SYNERGY-"+uniqueId,
+            subject:"Registered for metmat Events",
+            text: "METMAT-"+uniqueId,
             userDetails:details
         }
 

@@ -3,6 +3,7 @@
     text-align: center;
     font-size: calc(1.5rem + 2vw);
     margin-top: 10%;
+    background-color: #000000;
    
   }
   
@@ -81,7 +82,7 @@
   
   .nav-item:hover:after {
     width: 100%;
-    background: #2eb30d;
+    background: #08e0b1;
   }
   
   .nav-links.active {
