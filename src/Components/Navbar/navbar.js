@@ -79,7 +79,7 @@ function NavBar(props) {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                About 
+                About GCE
               </a>
             </li> 
             

@@ -2,21 +2,21 @@ const nonTechEvents = [
     {
         id:"mathwar",
         image:"mathWar",
-        name:"MathWar",
-        content:"The Laws of nature are but the mathematical thoughts of god."
+        name:"Fun events",
+        content:"Even though you're growing up,you should never stop having fun."
     },
     {
         id:"quiz",
-        image:"paper conferal",
-        name:"Quiz",
-        content:"It is word ‘Quiz’ what makes jeopardy among all game shows to encourage learning."
+        image:"paper conferal1",
+        name:"Photography",
+        content:"If  your photos aren't good enough,then you're not close enough."
     },
-    {
-        id:"fluenta",
-        image:"fluenta",
-        name:"Fluenta",
-        content:"Your Grammar is a reflection of your image."
-    },
+    // {
+    //     id:"fluenta",
+    //     image:"fluenta",
+    //     name:"Fluenta",
+    //     content:"Your Grammar is a reflection of your image."
+    // },
     // {
     //     id:"adzap",
     //     image:"adzap",

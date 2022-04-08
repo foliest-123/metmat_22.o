@@ -19,7 +19,7 @@ const Rules = () => {
                                     ))
                                 }
                             </ul> */}
-                            <h3>GuideLines</h3>
+                            <h3>Description</h3>
                             <ul>
                                 {
                                     guideline.rules.map((rule,index)=>(

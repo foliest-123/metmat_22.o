@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="footer">
             <div className="logo_container">
                 <h2>Metmat 22.o</h2>
-                <p>Metmat 22.0 is organised by the <b>S</b>ociety for the <b>A</b>dvancement of <b>M</b>ettulargy <b>E</b>ngineering (SAME).</p>
+                <p>Metmat 22.0 is organised by the <b>S</b>ociety for the <b>A</b>dvancement of <b>M</b>etallurgy <b>E</b>ngineering (SAME).</p>
             </div>
             <ul className="link_part">
                 <Link to="/"><li>Home</li></Link>

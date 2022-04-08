@@ -15,7 +15,7 @@ const ContactInfo = () => {
         },
         {
             name:"mail",
-            link:"mailto:gcesynergy2022@gmail.com"
+            link:"mailto:metmat2k22@gmail.com"
         }
     ];
 
@@ -33,20 +33,24 @@ const ContactInfo = () => {
                    <div className="number">
                     
                     <div className="contact_number_student">
-                    <div>+91 7826078947,</div>
-                    <div>(....)</div>
+                    <div>+91 9655988806,</div>
+                    <div>(Ariya krishnan)</div>
                     </div>
                     
                     <div className="contact_number_student">
-                    <div>+91 6374357067.</div>
-                    <div>(...)</div>
+                    <div>+91 7502255773.</div>
+                    <div>(Deepan)</div>
+                    </div>
+                    <div className="contact_number_student">
+                    <div>+91 6369071099.</div>
+                    <div>(Prakash raj)</div>
                     </div>
 
                    </div>
                 </div>
                 <div className="contact_details">
                     <img src={email} alt="phone" />
-                    <span>gcemetmat2022@gmail.com</span>
+                    <span>metmat2k22@gmail.com</span>
                 </div>
                 <div className="contact_details">
                     <img src={location} alt="phone" />

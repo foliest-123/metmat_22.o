@@ -2,7 +2,7 @@ import Countdown from "react-countdown";
 import "./CountDown.css";
 const CountDown = ()=>{
 
-    const end = new Date(2022,3,24);
+    const end = new Date(2022,3,20);
 
     const Completionist = () => <span>You are good to go!</span>;
 
