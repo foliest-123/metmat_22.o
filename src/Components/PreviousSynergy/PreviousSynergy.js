@@ -1,8 +1,8 @@
 import NavBar from "../Navbar/navbar";
-import PreviousHero from "./PreviousHero";
-import MomentCards from "./MomentCards";
-import symbol from "../../images/Memories/synergy_symbol.jpg";
-import group1 from "../../images/Memories/pic7.jpg";
+// import PreviousHero from "./PreviousHero";
+// import MomentCards from "./MomentCards";
+// import symbol from "../../images/Memories/synergy_symbol.jpg";
+// import group1 from "../../images/Memories/pic7.jpg";
  
 const PreviousSynergy = () => {
     return ( 

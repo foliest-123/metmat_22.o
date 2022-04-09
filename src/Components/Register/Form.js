@@ -107,9 +107,10 @@ const Form = () => {
             department,
             year,
             events,
-            accomodation:acc
+            accomodation:acc,
+            transid
         }
-
+        console.log(details)
         setLoading(true);
 
         const mailData = {
@@ -119,13 +120,14 @@ const Form = () => {
             userDetails:details
         }
 
-        const result = await axios.post("https://stark-earth-12970.herokuapp.com/v1/text-mail",mailData);
+        const result = await axios.post("https://stark-earth-12970.herokuapp.com/v1/metmat/text-mail",mailData);
 
         if(result.status === 200)
         {
              // Add a new document in collection "cities"
              await addDoc(collection(db, "students"), details);
              toast.success("Registered Successfull");
+            
              window.setTimeout(()=>{
                 setThanks(true);
              },3000);
@@ -149,6 +151,7 @@ const Form = () => {
         setDepartment("");
         setYear("1st year");
         setEvents([]);
+        setTransid("");
         setChecked({
             yes:false,
             no:false
@@ -206,24 +209,6 @@ const Form = () => {
                     <span className="event_name">Non Technical</span>
                     </label>
                 </div> 
-                {/* <div className="select_events">
-                    <label>
-                    <input name="project" className="event_check" id="Project" type="checkbox" onClick={evenListChangeHandler}/>
-                    <span className="event_name">Project</span>
-                    </label>
-                </div> 
-                <div className="select_events">
-                    <label>
-                    <input name="ppt" className="event_check" id="PPT" type="checkbox" onClick={evenListChangeHandler}/>
-                    <span className="event_name">PPT</span>
-                    </label>
-                </div> 
-                <div className="select_events">
-                    <label>
-                    <input name="all" className="event_check" id="All Events" type="checkbox" onClick={evenListChangeHandler}/>
-                    <span className="event_name">All Events</span>
-                    </label>
-                </div>  */}
             </div>
 
             <div className="accomodation">

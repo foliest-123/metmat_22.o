@@ -3,7 +3,7 @@ import EventsGridLayout from "./EventsGridLayout";
 import "./events.css";
 import techEvents from "./technicalData";
 import nonTechEvents from "./nonTechEventsData"; 
-import EventsHero from "./eventsHero";
+// import EventsHero from "./eventsHero";
 
 const Events = () => {
     return ( 

@@ -8,7 +8,7 @@ import Rules from './Components/Rules/Rules';
 import ProjectRules from "./Components/Rules/ProjectRules";
 import PaperPresentationRules from './Components/Rules/PaperPresentationRules';
 import ScrollToTop from './Components/ScrollToTop';
-import About from './Components/PreviousSynergy/PreviousSynergy'
+// import About from './Components/PreviousSynergy/PreviousSynergy'
 function App() {
   return (
     <Router>
