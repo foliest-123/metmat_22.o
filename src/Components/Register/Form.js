@@ -20,6 +20,7 @@ const Form = () => {
         yes:false,
         no:false
     });
+    const [transid,setTransid]=useState("");
     const [acc,setAcc] = useState("no");
     const [error,setError] = useState(false);
     const [studentInfo,setStudentInfo] = useState({});
@@ -80,7 +81,9 @@ const Form = () => {
     const accomodationChangeHandler = (e)=>{
         setAcc(e.target.value);
     }
-
+    const transidHandler = (e)=>{
+     setTransid(e.target.value);
+}
 
     const getDataHandler = async(e)=>{
 
@@ -172,6 +175,10 @@ const Form = () => {
             <input type="tel" placeholder="Enter Phone Number" value={phone} onChange={phoneChangeHandler} required/>
             <input type="text" placeholder="Enter College" value={college} onChange={collegeChangeHandler} required/>
             <input type="text" placeholder="Enter Department" value={department} onChange={departmentChangeHandler} required/>
+           <label style={{color:'orange',paddingBottom:'10px',fontSize:'15px'}}>Phonepay :2943578423787</label>
+           <label style={{color:'orange',paddingBottom:'10px',fontSize:'15px'}}>Google pay:2943578423787</label>
+            <input type="text" placeholder="Enter transaction id" value={transid} onChange={transidHandler} required/>
+               
 
 
             <label htmlFor="year">Select Year
@@ -230,6 +237,8 @@ const Form = () => {
                 <span className="event_name">No</span>
                 </label>
             </div>
+           <span style={{color:'red',marginLeft:'40px'}}> *Before submit confirm your registrantion on (9655988806)</span>
+           <span style={{color:'coral'}}></span>
 
             <div className="submit_button">
               <button type="submit"> {loading ? <ClipLoader loading={loading} size={15} /> : "Submit"}  </button>    
