@@ -178,8 +178,8 @@ const Form = () => {
             <input type="tel" placeholder="Enter Phone Number" value={phone} onChange={phoneChangeHandler} required/>
             <input type="text" placeholder="Enter College" value={college} onChange={collegeChangeHandler} required/>
             <input type="text" placeholder="Enter Department" value={department} onChange={departmentChangeHandler} required/>
-           <label style={{color:'orange',paddingBottom:'10px',fontSize:'15px'}}>Phonepay :2943578423787</label>
-           <label style={{color:'orange',paddingBottom:'10px',fontSize:'15px'}}>Google pay:2943578423787</label>
+           <label style={{color:'blue',paddingBottom:'10px',fontSize:'15px'}}>Phonepay :98433 90432</label>
+           <label style={{color:'blue',paddingBottom:'10px',fontSize:'15px'}}>Google pay:98433 90432</label>
             <input type="text" placeholder="Enter transaction id" value={transid} onChange={transidHandler} required/>
                
 
@@ -222,7 +222,7 @@ const Form = () => {
                 <span className="event_name">No</span>
                 </label>
             </div>
-           <span style={{color:'red',marginLeft:'40px'}}> *Before submit confirm your registrantion on (9655988806)</span>
+           <span style={{color:'red',marginLeft:'40px'}}> *Before submit confirm your registrantion on (98433 90432[Prakash])</span>
            <span style={{color:'coral'}}></span>
 
             <div className="submit_button">

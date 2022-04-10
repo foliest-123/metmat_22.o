@@ -32,7 +32,7 @@ const techEvents = [
     {
         id:"logix",
         image:"logix",
-        name:"Technical quiz",
+        name:"cross word",
         content:"Produce your brain faster."
     },
     {
